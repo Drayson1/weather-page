@@ -9,7 +9,9 @@ const showWeather = (weather) => {
     const fahrenheit = weather.main.temp;
     const clouds = document.getElementById("Clouds");
     const humidity = document.getElementById("Humidity");
-    const wind = document.getElementById("Wind")
+    const wind = document.getElementById("Wind");
+    const icon = document.getElementById("Icon");
+    icon.src = `http://openweathermap.org/img/wn/${weather.weather[0].icon}@2x.png`
     clouds.textContent = weather.clouds.all + `%`;
     city.textContent = weather.name;
     country.textContent = weather.sys.country;

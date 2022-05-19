@@ -39,7 +39,7 @@ main {
     margin-top: -80px;
 }
 
-#WeatherDetail>h2:nth-child(2n) {
+#WeatherDetail>h2:nth-of-type(2) {
     align-self: center;
 }
 
@@ -59,4 +59,9 @@ main {
 
 #WeatherIcon {
     width: 170px;
+}
+
+#Icon {
+    width: 150px;
+    padding-left: 20px;
 }
