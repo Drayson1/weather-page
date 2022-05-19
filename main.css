@@ -39,6 +39,10 @@ main {
     margin-top: -80px;
 }
 
+#WeatherDetail>h2:nth-child(2n) {
+    align-self: center;
+}
+
 #Temperature {
     font-size: 68px;
     padding-top: 90px;
@@ -46,11 +50,11 @@ main {
 }
 
 #CityName {
-    font-weight: 400;
+    font-weight: 500;
 }
 
 #Country {
-    font-weight: 300;
+    font-weight: 400;
 }
 
 #WeatherIcon {

@@ -15,7 +15,7 @@ const showWeather = (weather) => {
     country.textContent = weather.sys.country;
     humidity.textContent = weather.main.humidity + `%`;
     wind.textContent = weather.wind.speed + `m/s`
-    temperature.textContent = fahrenheitToCelsius(fahrenheit.toFixed()) + `°C`
+    temperature.textContent = fahrenheitToCelsius(fahrenheit.toFixed()) + `°`
 }
 
 const getWeatherByLocation = (info) => {
